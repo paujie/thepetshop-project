@@ -16,8 +16,10 @@
     <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Use HTML5"></a>
     <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Use CSS3"></a>
     <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" alt="Use Javascript"></a>
+    <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Use PHP"></a>
     <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="Use MySQL"></a>
     <a href="https://bit.ly/TPSJAYA-FIGMA"><img src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma&logoColor=red" alt="Use Figma"></a>
+    
 </p>
 
 <p align="center">
@@ -27,13 +29,21 @@
 
 ---
 
+<p align="center">
+  <a href="#" target="_blank">
+    <picture>
+      <img alt="The Pet Shop" src="https://cdn.discordapp.com/attachments/1068439233099993141/1085170250393325701/Mockup.png">
+    </picture>
+  </a>
+</p>
+
 # The Pet Shop™
 
 <b>The Pet Shop</b> adalah sebuah toko hewan peliharaan yang menyediakan berbagai produk makanan, mainan, perlengkapan, serta layanan salon/grooming untuk hewan peliharaan.
 
 The Pet Shop juga memiliki divisi Adoption & Care yang bertanggung jawab atas penjualan dan pengurusan hewan peliharaan, serta divisi Save & Rescue yang memberikan layanan penyelamatan hewan dalam situasi darurat.
 
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1078846866223026267/1084703451453329568/image.png" alt="The Shop"></a>
+## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168894236430347/image.png" alt="The Shop"></a>
 
 Fitur utama dari website The Pet Shop adalah <b>The Shop</b>, yaitu toko hewan peliharaan yang menyediakan berbagai produk makanan, mainan, perlengkapan, serta layanan salon/grooming untuk hewan peliharaan.
 
@@ -43,7 +53,7 @@ Selain itu, The Shop juga menawarkan layanan grooming yang dapat dipesan melalui
 
 The Shop juga menjamin keaslian dan kualitas produk yang dijual, serta memberikan kemudahan pembayaran dan pengiriman dengan menghadirkan berbagai metode pembayaran dan pilihan kurir pengiriman.
 
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1078846866223026267/1084714552333189241/image.png" alt="Adoption and Care"></a>
+## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168457470967818/image.png" alt="Adoption and Care"></a>
 
 <b>Adoption & Care</b> adalah fitur yang bertanggung jawab atas penjualan dan pengurusan hewan peliharaan, serta divisi Save & Rescue yang memberikan layanan penyelamatan hewan dalam situasi darurat.
 
@@ -53,7 +63,7 @@ The Pet Shop bekerja sama dengan BKSDA (Balai Besar Konservasi Sumber Daya Alam)
 
 Selain itu, The Pet Shop juga menyediakan layanan penampungan hewan untuk sementara waktu bagi hewan yang membutuhkan perawatan khusus, sebelum diadopsi atau diserahkan ke penampungan lain yang lebih sesuai.
 
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1078846866223026267/1084714565855629352/image.png" alt="Save and Rescue"></a>
+## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168670973644871/image.png" alt="Save and Rescue"></a>
 
 Fitur <b>Save & Rescue</b> adalah layanan darurat terkait hewan, bekerja sama dengan pemadam kebakaran.
 
