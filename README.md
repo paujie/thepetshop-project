@@ -37,7 +37,7 @@
   </a>
 </p>
 
-# The Pet Shop™
+# The Shop™
 
 <b>The Pet Shop</b> adalah sebuah toko hewan peliharaan yang menyediakan berbagai produk makanan, mainan, perlengkapan, serta layanan salon/grooming untuk hewan peliharaan.
 
