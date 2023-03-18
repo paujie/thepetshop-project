@@ -29,6 +29,7 @@
 
 ---
 
+<h1 align="center">The Pet Shop™</h1>
 <p align="center">
   <a href="#" target="_blank">
     <picture>
@@ -37,55 +38,18 @@
   </a>
 </p>
 
-# The Pet Shop™
+<br/>
 
-<b>The Pet Shop</b> adalah sebuah toko hewan peliharaan yang menyediakan berbagai produk makanan, mainan, perlengkapan, serta layanan salon/grooming untuk hewan peliharaan.
+<h2 align="center">Dokumentasi Lengkap</h2>
+<p align="center">
+  <a href="https://thepetshop.gitbook.io/" target="_blank">
+    <picture>
+      <img alt="Dokumentasi" src="https://cdn.discordapp.com/attachments/1068439233099993141/1086494507853422623/GitBook.png" width="240" height="60" style="max-width: 100%;">
+    </picture>
+  </a>
+</p>
+<p align="center">
+  Baca Dokumentasi Project <b>The Pet Shop</b> melalui GitBook
+</p>
 
-The Pet Shop juga memiliki divisi Adoption & Care yang bertanggung jawab atas penjualan dan pengurusan hewan peliharaan, serta divisi Save & Rescue yang memberikan layanan penyelamatan hewan dalam situasi darurat.
-
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168894236430347/image.png" alt="The Shop"></a>
-
-Fitur utama dari website The Pet Shop adalah <b>The Shop</b>, yaitu toko hewan peliharaan yang menyediakan berbagai produk makanan, mainan, perlengkapan, serta layanan salon/grooming untuk hewan peliharaan.
-
-Pada fitur ini, pengguna dapat melihat berbagai jenis produk yang tersedia dan melakukan pembelian secara online.
-
-Selain itu, The Shop juga menawarkan layanan grooming yang dapat dipesan melalui website, sehingga pengguna dapat dengan mudah mengatur jadwal grooming hewan peliharaannya tanpa harus datang langsung ke toko fisik.
-
-The Shop juga menjamin keaslian dan kualitas produk yang dijual, serta memberikan kemudahan pembayaran dan pengiriman dengan menghadirkan berbagai metode pembayaran dan pilihan kurir pengiriman.
-
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168457470967818/image.png" alt="Adoption and Care"></a>
-
-<b>Adoption & Care</b> adalah fitur yang bertanggung jawab atas penjualan dan pengurusan hewan peliharaan, serta divisi Save & Rescue yang memberikan layanan penyelamatan hewan dalam situasi darurat.
-
-Pada fitur ini, pengguna dapat mencari informasi tentang hewan peliharaan yang tersedia untuk diadopsi, serta melakukan proses adopsi dengan mudah dan aman.
-
-The Pet Shop bekerja sama dengan BKSDA (Balai Besar Konservasi Sumber Daya Alam) untuk memastikan bahwa setiap hewan yang diadopsi telah memenuhi syarat dan mendapatkan perawatan yang baik sebelum diserahkan kepada pemilik baru.
-
-Selain itu, The Pet Shop juga menyediakan layanan penampungan hewan untuk sementara waktu bagi hewan yang membutuhkan perawatan khusus, sebelum diadopsi atau diserahkan ke penampungan lain yang lebih sesuai.
-
-## <a href="#"><img src="https://cdn.discordapp.com/attachments/1068439233099993141/1085168670973644871/image.png" alt="Save and Rescue"></a>
-
-Fitur <b>Save & Rescue</b> adalah layanan darurat terkait hewan, bekerja sama dengan pemadam kebakaran.
-
-Pada fitur ini, pengguna dapat melaporkan keadaan hewan yang membutuhkan pertolongan darurat, seperti hewan yang terperangkap atau terjebak di suatu tempat, hewan yang terluka, atau hewan yang terkena bencana alam.
-
-The Pet Shop bekerja sama dengan pemadam kebakaran untuk memberikan bantuan segera kepada hewan yang membutuhkan, dengan tim yang terlatih dan dilengkapi dengan peralatan yang memadai.
-
-Fitur Save & Rescue ini membantu masyarakat untuk merespons dengan cepat dalam situasi darurat yang melibatkan hewan, sehingga dapat mengurangi dampak buruk pada hewan yang terkena musibah.
-
-## TPS Jaya Team
-
-Project ini dibuat oleh _TPS Jaya Team_ yang terdiri dari 4 orang :
-
-| Nama Anggota        | NIM     | Tugas                                |
-| :------------------ | :------ | :----------------------------------- |
-| `Fauzi Ramadhani`   | 2100654 | Product Manager, Designer, Developer |
-| `Falih Mufadol`     | 2109937 | Developer & Writer                   |
-| `Rafi Raihan`       | 2104902 | Developer & Writer                   |
-| `Syifa Nur Pratiwi` | 2109890 | Developer & Writer                   |
-
-## Dokumentasi
-
-### [The Pet Shop Introduction](#)
-
-### [Website Prototype (Figma)](https://bit.ly/TPSJAYA-FIGMA)
+<br/>
