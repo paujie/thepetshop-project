@@ -508,3 +508,99 @@
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
   border-radius: 30px;
 }
+
+/* Style Review */
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  background: #f8f9fb;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.review-konten {
+  font-family: "Inter";
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 140px;
+  gap: 40px;
+}
+
+.review-konten .isi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 130px;
+  width: 900px;
+}
+
+.review-konten .isi img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-konten .isi span {
+  width: 900px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #272d37;
+}
+
+.review-konten .isi .profil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  padding: 0px;
+  gap: 10px;
+}
+
+.review-konten .isi .profil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.review-konten .isi .profil .info {
+  font-weight: 500;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  padding: 0px;
+  width: 150px;
+  height: 42px;
+}
+
+.review-konten .isi .profil .info span {
+  text-align: left;
+  width: 150px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #272d37;
+}
+
+.review-konten .isi .profil .info p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
