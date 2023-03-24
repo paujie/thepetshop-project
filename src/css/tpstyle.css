@@ -605,7 +605,7 @@
   color: #5f6d7e;
 }
 
-* Style Mitra */
+/* Style Mitra */
 
 .mitra {
   display: flex;
@@ -638,7 +638,6 @@
   width: 1150px;
 }
 
-
 .mitra-konten p {
   font-weight: 400;
   font-size: 16px;
@@ -648,12 +647,10 @@
   color: #5f6d7e;
 }
 
-
 .mitra-konten .title {
   padding: 0px;
   gap: 20px;
 }
-
 
 .mitra-konten .title h2 {
   font-weight: 700;
@@ -664,18 +661,15 @@
   color: #272d37;
 }
 
-
 .mitra-konten .box {
   padding: 0px;
   gap: 20px;
 }
 
-
 .mitra-konten .box .baris {
   align-items: flex-start;
   gap: 10px;
 }
-
 
 .mitra-konten .box .baris .logo {
   flex-direction: row;
@@ -685,7 +679,6 @@
   gap: 10px;
 }
 
-
 .mitra-konten .box .baris .logo img {
   width: 180px;
   height: 64px;
@@ -693,14 +686,12 @@
 
 /* Style Menu */
 
-
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
 
 .menu-box {
   width: 1440px;
@@ -710,7 +701,6 @@
   border-color: rgba(234, 234, 234, 0.8);
 }
 
-
 .menu-konten {
   display: flex;
   flex-direction: row;
@@ -719,14 +709,12 @@
   gap: 10px;
 }
 
-
 .menu-konten .box {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
   width: 580px;
 }
-
 
 .menu-konten .box .isi {
   flex-direction: column;
@@ -735,7 +723,6 @@
   width: 450px;
   gap: 40px;
 }
-
 
 .menu-konten .box .isi .title {
   font-family: "Inter";
@@ -746,7 +733,6 @@
   gap: 10px;
 }
 
-
 .menu-konten .box .isi .title h2 {
   font-weight: 600;
   font-size: 32px;
@@ -755,18 +741,15 @@
   background: none !important;
 }
 
-
 #care {
   color: #f72a99;
   background: #f72a99;
 }
 
-
 #shelter {
   color: #074133;
   background: #074133;
 }
-
 
 .menu-konten .box .isi .title p {
   font-weight: 400;
@@ -775,7 +758,6 @@
   letter-spacing: -0.1px;
   color: #5f6d7e;
 }
-
 
 .menu-konten .box .isi button {
   display: flex;
@@ -793,7 +775,6 @@
 
 /* Style Footer */
 
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -801,9 +782,7 @@
   align-items: center;
   padding: 80px 80px 20px;
   gap: 10px;
-  background-color: #074133;
 }
-
 
 .footer-konten {
   font-family: "Inter";
@@ -816,9 +795,8 @@
   align-items: center;
   padding: 20px;
   gap: 40px;
-  background-color: #074133;
+  background-color: red;
 }
-
 
 .footer-konten .atas {
   flex-direction: row;
@@ -826,70 +804,8 @@
   padding: 0;
   gap: 20px;
   height: 180px;
+  background-color: blue;
 }
-
-
-.footer-konten .atas .logo {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 500px;
-  height: 180px;
-}
-
-
-.footer-konten .atas .logo img {
-  width: 200px;
-  height: 40px;
-}
-
-
-.footer-konten .atas .logo p {
-  width: 300px;
-  height: 40px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-
-.footer-konten .atas .menu {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 240px;
-  height: 180px;
-}
-
-
-.footer-konten .atas .menu .link {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-}
-
-
-.footer-konten .atas .menu span {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-}
-
-
-.footer-konten .atas .menu p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-}
-
 
 .footer-konten .div {
   padding: 0;
@@ -899,7 +815,6 @@
   border-radius: 1px;
 }
 
-
 .footer-konten .bawah {
   display: flex;
   flex-direction: row;
@@ -908,8 +823,8 @@
   padding: 0;
   gap: 20px;
   height: 20px;
+  background-color: green;
 }
-
 
 .footer-konten .bawah .credit {
   flex-direction: row;
@@ -922,7 +837,6 @@
   line-height: 20px;
 }
 
-
 .footer-konten .bawah .link {
   flex-direction: row;
   align-items: flex-start;
@@ -931,9 +845,7 @@
   width: 500px;
 }
 
-
 .footer-konten .bawah .link a {
   text-decoration: none;
   color: white;
 }
-
