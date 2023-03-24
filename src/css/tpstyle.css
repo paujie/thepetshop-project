@@ -782,6 +782,7 @@
   align-items: center;
   padding: 80px 80px 20px;
   gap: 10px;
+  background-color: #074133;
 }
 
 .footer-konten {
@@ -795,7 +796,7 @@
   align-items: center;
   padding: 20px;
   gap: 40px;
-  background-color: red;
+  background-color: #074133;
 }
 
 .footer-konten .atas {
@@ -804,7 +805,61 @@
   padding: 0;
   gap: 20px;
   height: 180px;
-  background-color: blue;
+}
+
+.footer-konten .atas .logo {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 500px;
+  height: 180px;
+}
+
+.footer-konten .atas .logo img {
+  width: 200px;
+  height: 40px;
+}
+
+.footer-konten .atas .logo p {
+  width: 300px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-konten .atas .menu {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 240px;
+  height: 180px;
+}
+
+.footer-konten .atas .menu .link {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+}
+
+.footer-konten .atas .menu span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-konten .atas .menu p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
 
 .footer-konten .div {
@@ -823,7 +878,6 @@
   padding: 0;
   gap: 20px;
   height: 20px;
-  background-color: green;
 }
 
 .footer-konten .bawah .credit {
