@@ -604,3 +604,89 @@
   letter-spacing: -0.1px;
   color: #5f6d7e;
 }
+
+* Style Mitra */
+
+.mitra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mitra-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  background: #ffffff;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.mitra-konten {
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 145px;
+  gap: 60px;
+  width: 1150px;
+}
+
+
+.mitra-konten p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+
+.mitra-konten .title {
+  padding: 0px;
+  gap: 20px;
+}
+
+
+.mitra-konten .title h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+
+.mitra-konten .box {
+  padding: 0px;
+  gap: 20px;
+}
+
+
+.mitra-konten .box .baris {
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+.mitra-konten .box .baris .logo {
+  flex-direction: row;
+  align-items: flex-start;
+  height: 64px;
+  padding: 10px;
+  gap: 10px;
+}
+
+
+.mitra-konten .box .baris .logo img {
+  width: 180px;
+  height: 64px;
+}
