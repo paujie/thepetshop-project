@@ -5,12 +5,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1440px;
 }
 
 /* Style Navbar */
@@ -311,4 +313,130 @@
   text-align: center;
   letter-spacing: -0.01em;
   color: #272d37;
+}
+
+/* Style Layanan */
+
+.layanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.layanan-box {
+  width: 1440px;
+  background: #ffffff;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.layanan-konten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 140px;
+  gap: 40px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.layanan-konten .atas {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0;
+  gap: 20px;
+}
+
+.layanan-konten .atas h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+.layanan-konten .atas p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  gap: 40px;
+}
+
+.layanan-konten .bawah .box {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 88px;
+  width: 360px;
+  height: 350px;
+  background: #f8f9fa;
+  border-radius: 30px;
+}
+
+.layanan-konten .bawah .box .info {
+  padding: 40px;
+  gap: 20px;
+  height: 142px;
+}
+
+.layanan-konten .bawah .box .info img {
+  width: 40px;
+  height: 40px;
+}
+
+.layanan-konten .bawah .box .info h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #0e1824;
+}
+
+.layanan-konten .bawah .box .info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah .box .link {
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  height: 40px;
+}
+
+.layanan-konten .bawah .box .link p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah .box .link button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40px;
+  height: 40px;
+  color: #747780;
+  background: #e3e5e7;
+  border-radius: 60px;
+  border: none;
 }
