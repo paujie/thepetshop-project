@@ -1,0 +1,606 @@
+/* List Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  height: 80px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(234, 234, 234, 0.8);
+}
+
+.navbar a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar-kontener {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 176px;
+  width: 1280px;
+  height: 40px;
+}
+
+.navbar-kontener .kiri {
+  width: 380px;
+  gap: 80px;
+}
+
+.navbar-kontener .kiri .logo img {
+  width: 200px;
+}
+
+.navbar-kontener .kiri .menu {
+  gap: 10px;
+  width: 100px;
+}
+
+.navbar-kontener .tengah {
+  gap: 50px;
+  width: 365px;
+}
+
+.navbar-kontener .kanan {
+  gap: 40px;
+  width: 185px;
+}
+
+.navbar-kontener .kanan .menu {
+  gap: 20px;
+  width: 64px;
+}
+
+.navbar-kontener .kanan .login button {
+  justify-content: center;
+  padding: 6px 20px;
+  gap: 10px;
+  width: 80px;
+  height: 40px;
+  background: #074133;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+/* Style Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 820px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 450px;
+  background: url(../../assets/img/content/hero/hero-1.png);
+}
+
+.slider-konten {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 596px;
+  width: 1280px;
+  height: 345px;
+}
+
+.slider-konten h1 {
+  width: 624px;
+  height: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  color: white;
+}
+
+.slider-konten .boxnom {
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 60px;
+  height: 6px;
+}
+
+.slider-konten .on {
+  width: 24px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.slider-konten .off {
+  width: 12px;
+  height: 6px;
+  background: #ffffff;
+  opacity: 0.45;
+  border-radius: 10px;
+}
+
+.hero-bawah {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 370px;
+  background: #ffffff;
+}
+
+.hero-bawah .kiri {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 550px;
+  height: 370px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.hero-bawah .kiri .konten {
+  gap: 20px;
+  width: 378px;
+  height: 148px;
+  border: none;
+  padding: 68px 80px;
+}
+
+.hero-bawah .kiri .konten h2 {
+  width: 349px;
+  height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+.hero-bawah .kiri .konten p {
+  width: 378px;
+  height: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.hero-bawah .kiri .konten button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 60px;
+  gap: 10px;
+  width: 258px;
+  height: 46px;
+  color: white;
+  background: #074133;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.hero-bawah .kanan {
+  display: block;
+  overflow: hidden;
+  width: 890px;
+  height: 370px;
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.hero-bawah .kanan .konten {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 80px;
+  gap: 40px;
+  width: 920px;
+  height: 290px;
+  border: none;
+}
+
+.produk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 200px;
+  height: 290px;
+}
+
+.produk img {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+}
+
+.produk p {
+  width: 200px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #074133;
+}
+
+.produk .judul {
+  width: 200px;
+  height: 50px;
+  gap: 0;
+}
+
+.produk .judul h3 {
+  width: 200px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #272d37;
+  text-overflow: ellipsis;
+}
+
+.produk .judul p {
+  width: 200px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #272d37;
+}
+
+/* Style Layanan */
+
+.layanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.layanan-box {
+  width: 1440px;
+  background: #ffffff;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.layanan-konten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 140px;
+  gap: 40px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.layanan-konten .atas {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0;
+  gap: 20px;
+}
+
+.layanan-konten .atas h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+.layanan-konten .atas p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  gap: 40px;
+}
+
+.layanan-konten .bawah .box {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 88px;
+  width: 360px;
+  height: 350px;
+  background: #f8f9fa;
+  border-radius: 30px;
+}
+
+.layanan-konten .bawah .box .info {
+  padding: 40px;
+  gap: 20px;
+  height: 142px;
+}
+
+.layanan-konten .bawah .box .info img {
+  width: 40px;
+  height: 40px;
+}
+
+.layanan-konten .bawah .box .info h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #0e1824;
+}
+
+.layanan-konten .bawah .box .info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah .box .link {
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  height: 40px;
+}
+
+.layanan-konten .bawah .box .link p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.layanan-konten .bawah .box .link button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40px;
+  height: 40px;
+  color: #747780;
+  background: #e3e5e7;
+  border-radius: 60px;
+  border: none;
+}
+
+/* Style Fitur */
+
+.fitur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.fitur-box {
+  width: 1440px;
+  background: #ffffff;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.fitur-konten {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 140px;
+  gap: 100px;
+}
+
+.fitur-konten .box {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 200px;
+  width: 1160px;
+  height: 300px;
+}
+
+.fitur-konten .box .konten {
+  font-family: "Inter";
+  font-style: normal;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 500px;
+  height: 196px;
+}
+
+.fitur-konten .box .konten h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+}
+
+.fitur-konten .box .konten p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+
+.fitur-konten .box img {
+  width: 460px;
+  height: 300px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+}
+
+/* Style Review */
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  background: #f8f9fb;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(234, 234, 234, 0.8);
+}
+
+.review-konten {
+  font-family: "Inter";
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 140px;
+  gap: 40px;
+}
+
+.review-konten .isi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 130px;
+  width: 900px;
+}
+
+.review-konten .isi img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-konten .isi span {
+  width: 900px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #272d37;
+}
+
+.review-konten .isi .profil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  padding: 0px;
+  gap: 10px;
+}
+
+.review-konten .isi .profil img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.review-konten .isi .profil .info {
+  font-weight: 500;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0px;
+  padding: 0px;
+  width: 150px;
+  height: 42px;
+}
+
+.review-konten .isi .profil .info span {
+  text-align: left;
+  width: 150px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #272d37;
+}
+
+.review-konten .isi .profil .info p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
