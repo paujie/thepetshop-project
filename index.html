@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/tpstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script src="https://unpkg.com/feather-icons"></script>
     <link
       rel="icon"
@@ -51,7 +55,7 @@
             <img src="assets/img/tps/logo.png" alt="The Pet Shop" />
           </div>
           <div class="navbar-kontener kiri menu">
-            <a href="#">Menu</a>
+            <a href="#">The Shop</a>
             <i data-feather="chevron-down"></i>
           </div>
         </div>
@@ -73,13 +77,25 @@
       </div>
     </div>
     <div class="hero">
-      <div class="slider">
-        <div class="slider-konten">
-          <h1>Anabul senang, <br />hidup kita tenang.</h1>
-          <div class="slider-konten boxnom">
-            <div class="slider-konten on"></div>
-            <div class="slider-konten off"></div>
-            <div class="slider-konten off"></div>
+      <div class="swiper1 mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" id="satu">
+            <div class="slider-konten">
+              <h1>Anabul senang, <br />hidup kita tenang.</h1>
+              <button>Cara Merawat Kucing</button>
+            </div>
+          </div>
+          <div class="swiper-slide" id="dua">
+            <div class="slider-konten">
+              <h1>Baru, <br />Lebih komplit.</h1>
+              <button>Lihat Produk</button>
+            </div>
+          </div>
+          <div class="swiper-slide" id="tiga">
+            <div class="slider-konten">
+              <h1>Cek <br />Promo menarik.</h1>
+              <button>Promo Terbaru</button>
+            </div>
           </div>
         </div>
       </div>
@@ -95,38 +111,72 @@
           </div>
         </div>
         <div class="hero-bawah kanan">
-          <div class="hero-bawah kanan konten">
-            <div class="produk">
-              <img src="assets/img/product/produk-1.png" alt="Produk 1" />
-              <div class="produk judul">
-                <h3>PRO PLAN Kitten</h3>
-                <p>Salmon & Tuna</p>
+          <div class="swiper2 mySwiper2">
+            <div class="swiper-wrapper wrapper2">
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-1.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>PRO PLAN Kitten</h3>
+                  <p>Salmon & Tuna</p>
+                </div>
+                <p>Rp 210.000</p>
               </div>
-              <p>Rp 210.000</p>
-            </div>
-            <div class="produk">
-              <img src="assets/img/product/produk-2.png" alt="Produk 2" />
-              <div class="produk judul">
-                <h3>Whiskas Basah</h3>
-                <p>Ikan Laut</p>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-2.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Whiskas Basah</h3>
+                  <p>Ikan Laut</p>
+                </div>
+                <p>Rp 30.000</p>
               </div>
-              <p>Rp 30.000</p>
-            </div>
-            <div class="produk">
-              <img src="assets/img/product/produk-3.png" alt="Produk 3" />
-              <div class="produk judul">
-                <h3>Whiskas Kering</h3>
-                <p>Ikan Kembung</p>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-3.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Whiskas Kering</h3>
+                  <p>Ikan Kembung</p>
+                </div>
+                <p>Rp 65.000</p>
               </div>
-              <p>Rp 65.000</p>
-            </div>
-            <div class="produk">
-              <img src="assets/img/product/produk-4.png" alt="Produk 4" />
-              <div class="produk judul">
-                <h3>PRO Plan B</h3>
-                <p>Chicken</p>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-4.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>PRO Plan B</h3>
+                  <p>Chicken</p>
+                </div>
+                <p>Rp 150.000</p>
               </div>
-              <p>Rp 15.000</p>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-5.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Dental Cat Snack</h3>
+                  <p>Chicken</p>
+                </div>
+                <p>Rp 20.000</p>
+              </div>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-6.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Pedigree® Kering</h3>
+                  <p>Lamb & Vegetable</p>
+                </div>
+                <p>Rp 74.970</p>
+              </div>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-7.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Prescription Diet</h3>
+                  <p>Canine i/d Low Fat</p>
+                </div>
+                <p>Rp 264.900</p>
+              </div>
+              <div class="swiper-slide slide2">
+                <img src="assets/img/product/produk-8.png" alt="Produk 1" />
+                <div class="produk judul">
+                  <h3>Snappy Tom</h3>
+                  <p>Whole Fish</p>
+                </div>
+                <p>Rp 15.800</p>
+              </div>
             </div>
           </div>
         </div>
@@ -372,5 +422,6 @@
     </div>
 
     <script src="src/js/tpscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
