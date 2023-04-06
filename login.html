@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/tpstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="android-chrome-192x192"
+      href="assets/img/favicon/android-chrome-192x192.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="android-chrome-512x512"
+      sizes="android-chrome-512x512"
+      href="assets/img/favicon/android-chrome-512x512.png" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="bungkusBox">
+      <div class="boxUtama">
+        <div class="boxKonten">
+          <div class="boxIsi">
+            <div class="kontenBox">
+              <div class="kontenItem" id="k-satu">
+                <img src="assets/img/tps/icon.png" alt="TPS" />
+              </div>
+              <div class="kontenItem" id="k-dua">
+                <h1>Login</h1>
+                <span>Masuk Akun The Pet Shop</span>
+              </div>
+              <form id="form-login" method="post" novalidate>
+                <div class="kontenItem" id="k-tiga">
+                  <div class="kontenInput">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="inputtext"
+                      placeholder="nama@email.com"
+                      required />
+                    <div class="pesan-error"></div>
+                  </div>
+                  <div class="kontenInput">
+                    <label for="pswd">Kata Sandi</label>
+                    <input
+                      type="password"
+                      id="pswd"
+                      name="password"
+                      class="inputtext"
+                      placeholder="Password Anda"
+                      minlength="8"
+                      required />
+                    <div class="pesan-error"></div>
+                    <a href="button.html" class="lupapass">Lupa Kata Sandi</a>
+                  </div>
+                  <button type="submit" id="loginkuy">Login</button>
+                  <span
+                    >Belum punya akun?
+                    <a href="register.html" id="daftar">Buat Akun</a></span
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="boxIsi" id="bg-login"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/tpscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>

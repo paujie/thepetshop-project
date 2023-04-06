@@ -1015,3 +1015,166 @@
   text-decoration: none;
   color: white;
 }
+
+/* Login & Register */
+
+.bungkusBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+  height: 100vh;
+  gap: 10px;
+  position: relative;
+  background: #f8f8f8;
+}
+
+.boxUtama {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  padding: 30px;
+  gap: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+}
+
+.boxKonten {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1220px;
+  border-radius: 20px;
+}
+
+.boxIsi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 55px;
+  gap: 10px;
+  height: 800px;
+  width: 610px;
+  background: white;
+  border-radius: 20px;
+}
+
+#bg-login {
+  background: url("../../assets/img/content/user/login.png");
+}
+
+#bg-register {
+  background: url("../../assets/img/content/user/register.png");
+}
+
+.kontenBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.kontenItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 500px;
+  background: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.kontenInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 480px;
+}
+
+#k-satu {
+  gap: 5px;
+}
+
+#k-dua {
+  gap: 10px;
+}
+
+#k-dua h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+}
+
+#k-dua span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+#k-tiga {
+  gap: 20px;
+}
+
+#k-tiga label span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+#k-tiga a {
+  color: #074133;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+#k-tiga button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  gap: 10px;
+  width: 480px;
+  height: 50px;
+  background: #074133;
+  border-radius: 10px;
+}
+
+.inputtext {
+  width: 480px;
+  height: 50px;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+}
+
+.pesan-error {
+  color: red;
+}
